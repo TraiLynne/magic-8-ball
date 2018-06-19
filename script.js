@@ -22,4 +22,15 @@ $(document).ready(function() {
         "Is it really what YOU want?",
         "That's not a good look"
     ]
+
+    // functions
+    magic8Ball.pickAnswer = function() {
+        $('#8ball').effect('shake');
+
+        var answer = this.listOfAnswers[
+            Math.floor(Math.random() * this.listOfAnswers.length)
+        ];
+
+        $("#answer").text(answer);
+    };
 })
