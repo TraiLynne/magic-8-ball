@@ -48,4 +48,8 @@ $(document).ready(function() {
 
         $("#answer").fadeIn(4000);
     };
+
+    // Manipulate the DOM
+    $("#answer").hide();
+    $("#questionButton").click(askQuestion);
 })
