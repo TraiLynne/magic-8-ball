@@ -43,3 +43,13 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+header {
+    padding-top: 0.25em;
+    text-align: center;
+}
+
+header span {
+    font-size: 60px;
+    color: #f16059;
+}
